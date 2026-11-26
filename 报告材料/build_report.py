@@ -19,6 +19,7 @@ from reportlab.platypus import (
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
+REPO = "https://github.com/REAK-F/library-borrowing-assistant"
 TITLE = "上海工程技术大学图书馆借阅办事助手"
 DARK = colors.HexColor("#17283a")
 TEAL = colors.HexColor("#12635f")
@@ -169,7 +170,10 @@ def cover(args, styles):
         ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
     ]))
-    return items + [table, PageBreak()]
+    repo = Paragraph(
+        f'代码仓库　<link href="{REPO}" color="#12635f"><u>{REPO}</u></link>',
+        styles["small"])
+    return items + [table, Spacer(1, 14), repo, PageBreak()]
 
 
 def render_body(content, metrics, styles):
@@ -198,6 +202,10 @@ def render_body(content, metrics, styles):
             continue
         if block == "[PAGE]":
             items.append(PageBreak())
+        elif block == "[REPO]":
+            items.append(Paragraph(
+                f'代码与数据在同一仓库：<link href="{REPO}" color="#12635f"><u>{REPO}</u></link>',
+                styles["body"]))
         elif block == "[RESULTS]":
             items.extend([result_table(metrics, styles), Spacer(1, 12)])
         elif block == "[BLIND]":
