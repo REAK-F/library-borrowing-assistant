@@ -46,6 +46,7 @@ python evaluate_blind.py --blind data/blind_cases_v2.csv --manifest data/blind_m
 - `results/keyword_workflow.csv`、`results/without_threshold.csv`：等权关键词端到端基线和去阈值消融的逐题结果。
 - `results/blind_v2_predictions_*.csv`、`results/blind_v2_metrics.json`：封存盲测上关键词、TF-IDF、分类器三种方案的逐题结果与汇总。
 - `demo/演示.png`、`demo/完整运行回放.gif` 与 `demo/终端运行记录.txt`：由实际终端输出生成，覆盖输入问题、追问、补充和结果。
+- `demo/真实运行截图.png`：PowerShell 中的实际运行截图，含命令行运行与一次交互式追问。
 
 ## 方法
 

@@ -132,7 +132,7 @@ def blind_table(styles):
 def figure(name, caption, styles, width=461):
     from PIL import Image as Probe
 
-    path = HERE / name
+    path = (HERE / name) if (HERE / name).exists() else (ROOT / "demo" / name)
     with Probe.open(path) as probe:
         pixel_width, pixel_height = probe.size
     return [
@@ -209,6 +209,10 @@ def render_body(content, metrics, styles):
         elif block == "[FIG2]":
             items.extend(figure("图2_核验与盲测对比.png",
                                 "图 2  内部核验与封存盲测的流程成功率对比", styles))
+            items.append(Spacer(1, 6))
+        elif block == "[FIG4]":
+            items.extend(figure("真实运行截图.png", "图 4  PowerShell 中的实际运行截图（命令行与交互式追问）",
+                                styles, width=461))
             items.append(Spacer(1, 6))
         elif block == "[FIG3]":
             items.extend(figure("图3_混淆矩阵.png",
