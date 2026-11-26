@@ -70,8 +70,3 @@ python evaluate_blind.py --blind data/blind_cases_v2.csv --manifest data/blind_m
 
 项目由本人选题，确定需求、范围与验收标准，并对每轮产出做验收。中文片段特征、TF-IDF 检索与追问决策、逻辑回归路由、评估脚本及报告文字在 AI 辅助下完成，已标在 `assistant.py`、`classifier.py` 文件头。测试样例与盲测问法由 AI 按规则另写，实验数值由脚本实际运行产生。
 
-
-python "报告材料/build_report.py" --name "你的姓名" --student-id "你的学号"
-```
-
-生成文件位于 `output/pdf/`。结果图可用 `python "报告材料/make_figures.py"` 重新绘制。两人组队时，用 `--contribution "组员姓名及各自分工"` 更新封面。提交前用 VS Code 跑一次演示，再按课程要求将报告 PDF、可访问的代码链接及演示材料提交。
