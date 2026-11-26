@@ -1,0 +1,1182 @@
+{
+  "threshold": 0.27,
+  "python": "3.14.6",
+  "scikit_learn": "1.9.0",
+  "initial_threshold": 0.21,
+  "initial_development": [
+    {
+      "threshold": 0.06,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 13,
+      "refer_cases": 4,
+      "refer_correct": 2,
+      "followup_cases": 2,
+      "followup_correct": 2,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 2
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 2
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.08,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 13,
+      "refer_cases": 4,
+      "refer_correct": 2,
+      "followup_cases": 2,
+      "followup_correct": 2,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 2
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 2
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.1,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 13,
+      "refer_cases": 4,
+      "refer_correct": 2,
+      "followup_cases": 2,
+      "followup_correct": 2,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 2
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 2
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.12,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 14,
+      "refer_cases": 4,
+      "refer_correct": 3,
+      "followup_cases": 2,
+      "followup_correct": 2,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 2
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 3
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.15,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 14,
+      "refer_cases": 4,
+      "refer_correct": 3,
+      "followup_cases": 2,
+      "followup_correct": 2,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 2
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 3
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.18,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 14,
+      "refer_cases": 4,
+      "refer_correct": 3,
+      "followup_cases": 2,
+      "followup_correct": 2,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 2
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 3
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.21,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 14,
+      "refer_cases": 4,
+      "refer_correct": 3,
+      "followup_cases": 2,
+      "followup_correct": 2,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 2
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 3
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.24,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 13,
+      "refer_cases": 4,
+      "refer_correct": 3,
+      "followup_cases": 2,
+      "followup_correct": 1,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 1
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 3
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.27,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 13,
+      "refer_cases": 4,
+      "refer_correct": 3,
+      "followup_cases": 2,
+      "followup_correct": 1,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 6
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 2
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 1
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 3
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.3,
+      "cases": 16,
+      "answerable": 11,
+      "keyword_top1": 11,
+      "tfidf_top1": 10,
+      "workflow_correct": 10,
+      "refer_cases": 4,
+      "refer_correct": 3,
+      "followup_cases": 2,
+      "followup_correct": 1,
+      "by_category": {
+        "常规": {
+          "cases": 7,
+          "correct": 4
+        },
+        "口语": {
+          "cases": 2,
+          "correct": 1
+        },
+        "追问": {
+          "cases": 2,
+          "correct": 1
+        },
+        "范围外": {
+          "cases": 4,
+          "correct": 3
+        },
+        "异常": {
+          "cases": 1,
+          "correct": 1
+        }
+      }
+    }
+  ],
+  "refinement": [
+    {
+      "threshold": 0.06,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 48,
+      "refer_cases": 12,
+      "refer_correct": 10,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 10
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.08,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 48,
+      "refer_cases": 12,
+      "refer_correct": 10,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 10
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.1,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 48,
+      "refer_cases": 12,
+      "refer_correct": 10,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 10
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.12,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 49,
+      "refer_cases": 12,
+      "refer_correct": 11,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 11
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.15,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 50,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.18,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 50,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.21,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 50,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.24,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 50,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.27,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 50,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.3,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 45,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 19
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 5
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    }
+  ],
+  "keyword_threshold": 0.21,
+  "keyword_development": [
+    {
+      "threshold": 0.06,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 48,
+      "refer_cases": 12,
+      "refer_correct": 10,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 10
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.08,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 48,
+      "refer_cases": 12,
+      "refer_correct": 10,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 10
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.1,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 48,
+      "refer_cases": 12,
+      "refer_correct": 10,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 10
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.12,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 48,
+      "refer_cases": 12,
+      "refer_correct": 10,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 10
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.15,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 48,
+      "refer_cases": 12,
+      "refer_correct": 10,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 10
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.18,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 50,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.21,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 50,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 23
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.24,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 49,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 22
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 6
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.27,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 46,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 7,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 20
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 5
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 7
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "threshold": 0.3,
+      "cases": 52,
+      "answerable": 38,
+      "keyword_top1": 36,
+      "tfidf_top1": 36,
+      "workflow_correct": 41,
+      "refer_cases": 12,
+      "refer_correct": 12,
+      "followup_cases": 7,
+      "followup_correct": 6,
+      "by_category": {
+        "常规": {
+          "cases": 23,
+          "correct": 17
+        },
+        "口语": {
+          "cases": 8,
+          "correct": 4
+        },
+        "追问": {
+          "cases": 7,
+          "correct": 6
+        },
+        "范围外": {
+          "cases": 12,
+          "correct": 12
+        },
+        "异常": {
+          "cases": 2,
+          "correct": 2
+        }
+      }
+    }
+  ],
+  "first_test": {
+    "cases": 36,
+    "answerable": 27,
+    "keyword_top1": 22,
+    "tfidf_top1": 22,
+    "workflow_correct": 25,
+    "refer_cases": 8,
+    "refer_correct": 6,
+    "followup_cases": 5,
+    "followup_correct": 5,
+    "by_category": {
+      "常规": {
+        "cases": 16,
+        "correct": 11
+      },
+      "口语": {
+        "cases": 6,
+        "correct": 2
+      },
+      "追问": {
+        "cases": 5,
+        "correct": 5
+      },
+      "范围外": {
+        "cases": 8,
+        "correct": 6
+      },
+      "异常": {
+        "cases": 1,
+        "correct": 1
+      }
+    }
+  },
+  "initial_on_audit": {
+    "cases": 24,
+    "answerable": 20,
+    "keyword_top1": 13,
+    "tfidf_top1": 12,
+    "workflow_correct": 13,
+    "refer_cases": 4,
+    "refer_correct": 4,
+    "followup_cases": 3,
+    "followup_correct": 1,
+    "by_category": {
+      "常规": {
+        "cases": 9,
+        "correct": 6
+      },
+      "口语": {
+        "cases": 8,
+        "correct": 2
+      },
+      "追问": {
+        "cases": 3,
+        "correct": 1
+      },
+      "范围外": {
+        "cases": 4,
+        "correct": 4
+      }
+    }
+  },
+  "audit": {
+    "cases": 24,
+    "answerable": 20,
+    "keyword_top1": 18,
+    "tfidf_top1": 18,
+    "workflow_correct": 18,
+    "refer_cases": 4,
+    "refer_correct": 4,
+    "followup_cases": 3,
+    "followup_correct": 2,
+    "by_category": {
+      "常规": {
+        "cases": 9,
+        "correct": 6
+      },
+      "口语": {
+        "cases": 8,
+        "correct": 6
+      },
+      "追问": {
+        "cases": 3,
+        "correct": 2
+      },
+      "范围外": {
+        "cases": 4,
+        "correct": 4
+      }
+    }
+  },
+  "audit_keyword_workflow": {
+    "cases": 24,
+    "answerable": 20,
+    "keyword_top1": 18,
+    "tfidf_top1": 18,
+    "workflow_correct": 22,
+    "refer_cases": 4,
+    "refer_correct": 4,
+    "followup_cases": 3,
+    "followup_correct": 3,
+    "by_category": {
+      "常规": {
+        "cases": 9,
+        "correct": 7
+      },
+      "口语": {
+        "cases": 8,
+        "correct": 8
+      },
+      "追问": {
+        "cases": 3,
+        "correct": 3
+      },
+      "范围外": {
+        "cases": 4,
+        "correct": 4
+      }
+    }
+  },
+  "audit_without_threshold": {
+    "cases": 24,
+    "answerable": 20,
+    "keyword_top1": 18,
+    "tfidf_top1": 18,
+    "workflow_correct": 21,
+    "refer_cases": 4,
+    "refer_correct": 3,
+    "followup_cases": 3,
+    "followup_correct": 3,
+    "by_category": {
+      "常规": {
+        "cases": 9,
+        "correct": 7
+      },
+      "口语": {
+        "cases": 8,
+        "correct": 8
+      },
+      "追问": {
+        "cases": 3,
+        "correct": 3
+      },
+      "范围外": {
+        "cases": 4,
+        "correct": 3
+      }
+    }
+  }
+}

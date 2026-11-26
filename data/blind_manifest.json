@@ -1,0 +1,8 @@
+{
+  "file": "data/blind_cases.csv",
+  "sha256": "c41ca14ed90ae61fe3356282df1c1b6322d49bb67ad16e31bd7e119a6b656f4f",
+  "cases": 20,
+  "created": "2026-11-25T15:46:51+00:00",
+  "protocol": "构造完成后立即封存；只允许在 evaluate_blind.py 中运行一次；不依据盲测结果修改规则、口语映射或阈值。",
+  "construction": "按十条规则、身份与校区条件、范围外服务另写自然问法，未参考开发集与测试集的具体句子。"
+}

@@ -1,0 +1,177 @@
+{
+  "blind_set": {
+    "file": "data/blind_cases_v2.csv",
+    "sha256": "7e3e1a9ec62286b1c80c525327148e76fad02a9f084c8bb25a37bc3b5d7c6860",
+    "cases": 20,
+    "created": "2026-11-25T15:48:57+00:00",
+    "manifest": "data/blind_manifest_v2.json"
+  },
+  "training": {
+    "questions": 50,
+    "phrases": 78,
+    "splits": [
+      "dev",
+      "test"
+    ],
+    "folds": 3,
+    "c_grid": [
+      0.3,
+      1.0,
+      3.0
+    ],
+    "cv_accuracy": {
+      "0.3": 0.78,
+      "1.0": 0.76,
+      "3.0": 0.76
+    },
+    "chosen_C": 0.3,
+    "tau": 0.0,
+    "screening": [
+      {
+        "tau": 0.0,
+        "coverage": 1.0,
+        "accuracy": 0.78
+      },
+      {
+        "tau": 0.2,
+        "coverage": 0.0,
+        "accuracy": 0.0
+      },
+      {
+        "tau": 0.3,
+        "coverage": 0.0,
+        "accuracy": 0.0
+      },
+      {
+        "tau": 0.4,
+        "coverage": 0.0,
+        "accuracy": 0.0
+      },
+      {
+        "tau": 0.5,
+        "coverage": 0.0,
+        "accuracy": 0.0
+      },
+      {
+        "tau": 0.6,
+        "coverage": 0.0,
+        "accuracy": 0.0
+      }
+    ],
+    "calibration": [
+      {
+        "range": "0.0–0.4",
+        "cases": 50,
+        "correct": 39
+      },
+      {
+        "range": "0.4–0.6",
+        "cases": 0,
+        "correct": 0
+      },
+      {
+        "range": "0.6–0.8",
+        "cases": 0,
+        "correct": 0
+      },
+      {
+        "range": "0.8–1.0",
+        "cases": 0,
+        "correct": 0
+      }
+    ]
+  },
+  "thresholds": {
+    "keyword": 0.21,
+    "tfidf": 0.27
+  },
+  "keyword": {
+    "cases": 20,
+    "answerable": 18,
+    "keyword_top1": 15,
+    "tfidf_top1": 15,
+    "workflow_correct": 14,
+    "refer_cases": 2,
+    "refer_correct": 2,
+    "followup_cases": 3,
+    "followup_correct": 3,
+    "by_category": {
+      "常规": {
+        "cases": 9,
+        "correct": 5
+      },
+      "口语": {
+        "cases": 6,
+        "correct": 4
+      },
+      "追问": {
+        "cases": 3,
+        "correct": 3
+      },
+      "范围外": {
+        "cases": 2,
+        "correct": 2
+      }
+    }
+  },
+  "tfidf": {
+    "cases": 20,
+    "answerable": 18,
+    "keyword_top1": 15,
+    "tfidf_top1": 15,
+    "workflow_correct": 14,
+    "refer_cases": 2,
+    "refer_correct": 2,
+    "followup_cases": 3,
+    "followup_correct": 3,
+    "by_category": {
+      "常规": {
+        "cases": 9,
+        "correct": 5
+      },
+      "口语": {
+        "cases": 6,
+        "correct": 4
+      },
+      "追问": {
+        "cases": 3,
+        "correct": 3
+      },
+      "范围外": {
+        "cases": 2,
+        "correct": 2
+      }
+    }
+  },
+  "classifier": {
+    "cases": 20,
+    "answerable": 18,
+    "keyword_top1": 15,
+    "tfidf_top1": 15,
+    "workflow_correct": 16,
+    "refer_cases": 2,
+    "refer_correct": 2,
+    "followup_cases": 3,
+    "followup_correct": 3,
+    "by_category": {
+      "常规": {
+        "cases": 9,
+        "correct": 6
+      },
+      "口语": {
+        "cases": 6,
+        "correct": 5
+      },
+      "追问": {
+        "cases": 3,
+        "correct": 3
+      },
+      "范围外": {
+        "cases": 2,
+        "correct": 2
+      }
+    }
+  },
+  "python": "3.14.6",
+  "scikit_learn": "1.9.0"
+}
